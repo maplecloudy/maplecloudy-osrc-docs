@@ -6,9 +6,10 @@
 title: Hexo
 subtitle: ''
 description: ''
-keywords:
-author: John Doe
-language: en
+keywords: osrc docs
+author: psrc
+# language: en
+language: zh-CN
 timezone: ''
 
 # URL
