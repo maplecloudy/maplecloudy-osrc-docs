@@ -15,6 +15,12 @@ version即为package.json中指定的version.
 综上,假如应用进行了两次deploy操作,您的`username+bundle+version`一样,那么这两次的deploy我们会认为是同一个Pages,且前一次Pages的属性信息会被后一次覆盖,如`description`等.如果`username+bundle+version`不同,例如version两次分别为1.0.0和1.0.1,那么这两次deploy就会生成两个独立的Pages,您可在`个人中心-我的Pages`中看到这两个Pages.
 ## Pages的编辑
 在page发布前,您可对page的属性信息进行编辑,例如上传一些截图,项目的来源(github/gitee/...)等.
+## 设置代理
+当前支持两种类型的代理目标:
+  * 运行时-当前在osrc平台启动的runtime
+  * 地址-任何一个可提供后端服务的完整url
+并且支持path的prefix匹配和path的路径重写,具体语法规则,可参考spring gateway的相应语法.
+将来会支持更加丰富的语法规则.
 ## Pages的发布
 deploy上来的Pages默认是私有的,也即仅作者自己可见,他人搜索Pages时将不会检索到.只有当Pages进行了发布,那么所有人皆可见,且能被检索到.
 
