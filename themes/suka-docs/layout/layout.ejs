@@ -9,8 +9,8 @@
     <meta name="description" content="Modern, powerful and simple theme for Hexo.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/sukkaw/hexo-theme-suka@0.1.0/source/img/suka-favicon.ico">
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/sukkaw/hexo-theme-suka@0.1.0/source/img/suka-favicon.ico">
+    <link rel="shortcut icon" href="<%- url_for('assets/img/favicon.png') %>">
+    <link rel="icon" href="">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.3/dist/spectre.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.3/dist/spectre-exp.min.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="<%- url_for('markdown.min.css') %>">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sukkaw/hexo-theme-suka@0.1.0/source/lib/prism/prism-ghcolors.min.css">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://theme-suka.skk.moe/docs/">
-    <meta property="og:title" content="介绍 | Suka Theme">
-    <meta property="og:description" content="Modern Simlpe Powerful Theme for hexo">
+    <meta property="og:url" content="https://docs.osrc.com">
+    <meta property="og:title" content="介绍 | Osrc">
+    <meta property="og:description" content="Share your open source app as runtime osrc app">
     <meta property="og:image" content="<% url_for('assets/img/hexo-theme-suka.png') %>">
 </head>
 
@@ -35,10 +35,10 @@
         <div class="container grid-lg navbar pt-2 pb-2">
             <section class="navbar-section">
                 <a class="off-canvas-toggle btn btn-link btn-action" href="#sidebar"><i class="icon icon-menu"></i></a>
-                <a class="navbar-icon" href="https://theme-suka.skk.moe">
-                    <img src="<%- url_for('assets/img/hexo-theme-suka.png') %>">
+                <a class="navbar-icon" href="https://docs.osrc.com">
+                    <img src="<%- url_for('assets/img/favicon.png') %>">
                 </a>
-                <a href="https://theme-suka.skk.moe" class="btn btn-link">Suka Theme</a>
+                <a href="https://docs.osrc.com" class="btn btn-link">Osrc Docs</a>
             </section>
             <section class="navbar-section">
                 <% if (en === true) { %>

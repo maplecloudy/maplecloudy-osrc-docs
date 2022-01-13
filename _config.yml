@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Suka Theme
-subtitle: Suka Theme Docs
-description: Modern, powerful and simple theme for Hexo.
-author: SukkaW
+title: Osrc 
+subtitle: Osrc Docs
+description: Share your open source as runtime Osrc app.
+author: osrc
 
 language:
   - zh-CN
@@ -16,8 +16,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://theme-suka.skk.moe/docs
-root: /docs/
+url: https://docs.osrc.com
+# root: /docs/
 permalink: /:title/
 permalink_defaults:
 
