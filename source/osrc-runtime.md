@@ -1,6 +1,6 @@
 ---
 title: 分享运行时
-description: 这个文档将引导您在OSRC启动应用，以及分享运行时，让我们开始吧!
+description: 这里将引导您在OSRC启动应用，以及分享运行时，让我们开始吧!
 ---
 
 > OSRC 提供了CI相关的工具，目前支持JAVA应用的发布，CI工具以开源方式提供，[OSRC 开发者工具](https://github.com/maplecloudy/maplecloudy-osrt-tools),感兴趣的同学可以不同形式参与，OSRC正在努力提供各种编程语言的支持！
