@@ -4,7 +4,7 @@ top: 回到顶部
 nav:
   start: 简介
   deploy-osrc-app: 发布应用到OSRC
-  service: 第三方服务
+  runtime: 运行时
   plugin: 内置插件
   expert: 进阶使用
   compose: 开始创作
