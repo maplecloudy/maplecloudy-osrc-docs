@@ -1,0 +1,40 @@
+<%
+    const en = page.path.indexOf('en') == -1 ? '' : 'en/';
+    function i18n_url_for(uri) {
+        return config.root + en + uri
+    }
+%>
+
+<div class="docs-nav">
+    <div class="docs-search has-icon-left">
+        <i class="form-icon icon icon-search"></i>
+        <input id="search-field" class="form-input" type="text" placeholder="Search...">
+    </div>
+    <div id="search-result"></div>
+    <ul class="nav">
+        <li class="nav-item">
+            <a href="<%- i18n_url_for('') %>"><%- __('nav.start') %></a>
+        </li>
+        <li class="nav-item">
+            <a href="<%- i18n_url_for('config/') %>"><%- __('nav.config') %></a>
+        </li>
+        <li class="nav-item">
+            <a href="<%- i18n_url_for('service/') %>"><%- __('nav.service') %></a>
+        </li>
+        <li class="nav-item">
+            <a href="<%- i18n_url_for('expert/') %>"><%- __('nav.expert') %></a>
+        </li>
+        <li class="nav-item">
+            <a href="<%- i18n_url_for('compose/') %>"><%- __('nav.compose') %></a>
+        </li>
+        <li class="nav-item">
+            <a href="<%- i18n_url_for('pages/') %>"><%- __('nav.pages') %></a>
+        </li>
+        <li class="nav-item">
+            <a href="<%- i18n_url_for('plugin/') %>"><%- __('nav.plugin') %></a>
+        </li>
+        <li class="nav-item">
+            <a href="<%- i18n_url_for('dev/') %>"><%- __('nav.dev') %></a>
+        </li>
+    </ul>
+</div>
