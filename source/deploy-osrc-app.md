@@ -1,5 +1,5 @@
 ---
-title: 发布一个OSRC应用
+title: OSRC应用
 description: 这里将引导您发布一个OSRC应用，让我们开始吧!
 ---
 
@@ -112,7 +112,7 @@ mvn clean install -Dinstall.osrt.skip=true
 
 ![我的应用](/assets/img/share-app.png)
 
-> 当您在页面发布后，你将不能再重新用'mvn clean install'发布相同版本的应用，你可以修改版本号再次发布一个新版本，或者在页面取消发布，然后更新当前版本应用。
+> 当您在页面发布后，将不能再重新用'mvn clean install'发布相同版本的应用，可以修改版本号再次发布一个新版本，或者在页面取消发布，然后更新当前版本应用。
 
 ----
 

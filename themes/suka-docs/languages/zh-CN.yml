@@ -3,10 +3,6 @@ toc: 目录
 top: 回到顶部
 nav:
   start: 简介
-  deploy-osrc-app: 发布应用到OSRC
+  deploy-osrc-app: OSRC应用
   runtime: 运行时
-  plugin: 内置插件
-  expert: 进阶使用
-  compose: 开始创作
-  pages: 独立页面
-  dev: 开发指南
+  pages: OSRC Pages
