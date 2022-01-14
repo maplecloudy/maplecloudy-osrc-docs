@@ -116,4 +116,4 @@ mvn clean install -Dinstall.osrt.skip=true
 
 ----
 
-好了，如上操作顺利，您成功发布了一个应用到OSRC，您是不是特别期待运行起来看看效果，很荣幸OSRC提供了这个能力，[let's run it！](/osrc-runtime.html)
+如上操作顺利，您成功发布了一个应用到OSRC，您是不是特别期待运行起来看看效果，很荣幸OSRC提供了这个能力，[let's run it！](/osrc-runtime.html)

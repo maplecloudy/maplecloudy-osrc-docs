@@ -3,7 +3,7 @@ title: OSRC Pages
 description: 这里将引导您发布一个OSRC Pages应用!
 ---
 
-> OSRC 提供了CI相关的工具，在Pages发布上提供了NodeJs的一个Cli工具。CI工具以开源方式提供，[OSRC 开发者工具](https://github.com/maplecloudy/maplecloudy-osrt-tools/tree/master/osrc-cli),感兴趣的同学可以不同形式参与，OSRC正在努力提供各种编程语言的支持！
+> OSRC Pages发布提供了NodeJs的一个CLI工具。osrc-cli工具以开源方式提供，[OSRC 开发者工具](https://github.com/maplecloudy/maplecloudy-osrt-tools/tree/master/osrc-cli),感兴趣的同学可以不同形式参与，OSRC正在努力提供各种编程语言的支持！
 
 # Pages应用
 
@@ -37,8 +37,8 @@ osrc info
 # osrc deploy 发布您的应用到OSRC，默认会上传dist目录下的文件，需要您先编译，如果编译输出其他目录，可以通过-d 指定要发布的内容
 osrc deploy
 ```
-> osrc-cli 目前存在一些兼容问题，目前支持**node: "^12.20.0 || ^14.13.1 || >=16.0.0**
-> 如果您使用其他不兼容的node版本在开发，一个Workaround的方案是：使用您需要的node去编译您的项目，然后切换到一个osrc-cli支持的node版本，使用osrc命令去发布您的项目。
+> osrc-cli 存在一些兼容问题，目前支持**node: "^12.20.0 || ^14.13.1 || >=16.0.0**
+> 如果您使用其他不兼容的node版本在开发，一个Workaround的方案是：使用您需要的node版本编译您的项目，然后切换到一个osrc-cli支持的node版本，使用osrc命令发布您的项目。
 > osrc-cli 已经尝试发布到npm仓库，让大家可以方便的以**npm i -g osrc-cli**的方式使用，不过目前存在一些问题，有相关的经验的同学，可以多给些宝贵意见！
 ## 分享应用
 
@@ -62,7 +62,7 @@ OSRC Pages支持集成**OSRC运行时**作为后台服务，实现动态应用�
 
 ----
 
-好了，经过以上操作，您已经体验了目前OSRC社区为您提供的各种能力，OSRC团队会继续努力为大家提供更好的运行时社区能力，也欢迎大家提供宝贵意见！
-需要的朋友可以加好友进行交流！
+经过以上操作，您已经体验了目前OSRC社区为您提供的各种能力，OSRC团队会继续努力为大家提供更好的运行时社区能力，也欢迎大家提供宝贵意见！
+欢迎加好友进行交流！
 <img src="/assets/img/kim-card.jpg" width = "35%" height = "35%" alt="Kim" align=center /><img src="/assets/img/pengfei-card.jpg" width = "35%" height = "35%" alt="Pengfei" align=center />
 
