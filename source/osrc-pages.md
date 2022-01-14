@@ -5,7 +5,7 @@ description: 这里将引导您发布一个OSRC Pages应用!
 
 > OSRC 提供了CI相关的工具，在Pages发布上提供了NodeJs的一个Cli工具。CI工具以开源方式提供，[OSRC 开发者工具](https://github.com/maplecloudy/maplecloudy-osrt-tools/tree/master/osrc-cli),感兴趣的同学可以不同形式参与，OSRC正在努力提供各种编程语言的支持！
 
-# JAVA应用
+# Pages应用
 
 下面介绍下如何发布Pages应用到OSRC。
 
