@@ -36,7 +36,7 @@ mvn clean install
  <plugin>
   <groupId>com.maplecloudy.osrt</groupId>
   <artifactId>maplecloudy-osrt-maven-plugin</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0-RELEASE</version>
   <executions>
       <execution>
           <goals>
