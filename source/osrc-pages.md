@@ -24,24 +24,12 @@ cd maplecloudy-osrt-tools/osrc-cli
 npm link
 # 输入osrc 会获得帮助信息
 osrc
-# osrc login让您在本地登录到Osrc社区
-osrc login
-# osrc info 让您看到目前的登录信息
-osrc info
-# osrc deploy 发布您的应用到OSRC，默认会上传dist目录下的文件，需要您先编译，如果编译输出其他目录，可以通过-d 指定要发布的内容
-osrc deploy
 ```
-
 ## 发布Pages
 
 发布您的前端应用需要您先编译项目，并且确定编译成功，然后使用osrc-cli来进行发布，具体操作步骤如下：
-> osrc-cli 目前存在一些兼容问题，目前支持**node: "^12.20.0 || ^14.13.1 || >=16.0.0**
-> 如果您使用其他不兼容的node版本在开发，一个Workaround的方案是：使用您需要的node去编译您的项目，然后切换到一个osrc-cli支持的node版本，使用osrc命令去发布您的项目。
-> osrc-cli 已经尝试发布到npm仓库，让大家可以方便的以**npm i -g osrc-cli**的方式使用，不过目前存在一些问题，有相关的经验的同学，可以多给些宝贵意见！
 
 ```bash
-# 输入osrc 会获得帮助信息
-osrc
 # osrc login让您在本地登录到Osrc社区
 osrc login
 # osrc info 让您看到目前的登录信息
@@ -49,7 +37,9 @@ osrc info
 # osrc deploy 发布您的应用到OSRC，默认会上传dist目录下的文件，需要您先编译，如果编译输出其他目录，可以通过-d 指定要发布的内容
 osrc deploy
 ```
-
+> osrc-cli 目前存在一些兼容问题，目前支持**node: "^12.20.0 || ^14.13.1 || >=16.0.0**
+> 如果您使用其他不兼容的node版本在开发，一个Workaround的方案是：使用您需要的node去编译您的项目，然后切换到一个osrc-cli支持的node版本，使用osrc命令去发布您的项目。
+> osrc-cli 已经尝试发布到npm仓库，让大家可以方便的以**npm i -g osrc-cli**的方式使用，不过目前存在一些问题，有相关的经验的同学，可以多给些宝贵意见！
 ## 分享应用
 
 经过以上的**osrc deploy**操作，如果提示**success**,恭喜您，已经发布好了您的应用。
@@ -64,9 +54,9 @@ osrc deploy
 
 ## 动态应用配置
 
-OSRC Pages支持集成OSRC 运行时作为后台服务，实现动态应用。
+OSRC Pages支持集成**OSRC运行时**作为后台服务，实现动态应用。
 通过上图中的代理配置就可以绑定一个运行时，实现后台访问。
-> 在实现上OSRC尽量做到跟前端开发在本地开发场景下配置代码服务一样的体验
+> 在实现上OSRC尽量做到跟前端在本地开发场景下配置代理服务一样的体验
 > 一个应用可以提供多个代理配置，以集成多个后端服务。
 
 
