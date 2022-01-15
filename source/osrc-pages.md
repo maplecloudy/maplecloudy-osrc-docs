@@ -43,7 +43,7 @@ osrc deploy
 ## 分享应用
 
 经过以上的**osrc deploy**操作，如果提示**success**,恭喜您，已经发布好了您的应用。
-登录[www.osrc.com](htttps://www.osrc.com),在用户头像点击后的下拉菜单中选择**我的Pages**：
+登录[www.osrc.com](https://www.osrc.com),在用户头像点击后的下拉菜单中选择**我的Pages**：
 ![我的Pages](/assets/img/my-pages.png)
 在我的Pages列表页面应该能看到您刚发布的Pages应用：
 ![我的Pages](/assets/img/my-pages-list.png)
