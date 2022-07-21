@@ -1,5 +1,5 @@
 ---
-title: OSRC-开源运行时社区简介
+title: OSRC-开源运行时社区
 description: Code is cold, when it's running, warm the world!
 ---
 
