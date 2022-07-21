@@ -56,7 +56,7 @@ OSRC插件通过具备Main函数的Class的`Annotation`来识别程序入口，�
 - Service Annotation
 
 ```java
-package com.maplecloudy.osrt.app.annotation;
+package com.maplecloudy.osrc.app.annotation;
 
 public @interface Service {
   
@@ -66,7 +66,7 @@ public @interface Service {
 - Task Annotation
 
 ```java
-package com.maplecloudy.osrt.app.annotation;
+package com.maplecloudy.osrc.app.annotation;
 
 public @interface Task {
   

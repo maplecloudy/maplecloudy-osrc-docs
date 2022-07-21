@@ -78,11 +78,11 @@ OSRC Pages支持集成**OSRC APP运行时**作为后台服务，实现动态应�
 
 目前为止您的项目是私有的，如果您希望您制作的开源产品公开发布到OSRC社区，请完善项目的其它信息(info,readme,logo等)，然后点击 **publish**  
 
-![project-publish](/assets/img/[project-publish.png)   
+![project-publish](/assets/img/project-publish.png)   
 
 DONE！您的项目已经发布到OSRC社区，会被更多人发现和看到。    
 
-![projects](/assets/img/[projects.png)
+![projects](/assets/img/projects.png)
 
 OSRC社区期待您伟大的开源项目！   
 

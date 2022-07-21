@@ -27,8 +27,8 @@ deploy上来的Pages默认是私有的,也即仅作者自己可见,他人搜索P
 注意:
 当Pages处于发布状态时,那么如果此Pages再次deploy时会失败.您可以取消发布再进行deploy.
 
-## Paegs的deploy
-安装osrt-cli进行Pages的deploy,详情请参阅[osrc-cli](https://github.com/maplecloudy/maplecloudy-osrt-tools/tree/master/osrc-cli#readme)
+## Pages 的deploy
+安装osrc-cli进行Pages的deploy,详情请参阅[osrc-cli](https://github.com/maplecloudy/maplecloudy-osrc-tools/tree/master/osrc-cli#readme)
 
 ## 文件浏览
 文件浏览为此Pages编译后的文件目录,可以进行相关的文件浏览.

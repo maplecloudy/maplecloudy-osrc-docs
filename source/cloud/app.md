@@ -22,23 +22,23 @@ deploy上来的app默认是私有的,也即仅作者自己可见,他人搜索应
 当app处于发布状态时,那么如果此app再次deploy时会失败.您可以取消发布再进行deploy.
 
 ## app的deploy
-注释掉其他的maven-plugin并引用osrt的plugin依赖
+注释掉其他的maven-plugin并引用osrc的plugin依赖
   ```
   <plugin>
-          <groupId>com.maplecloudy.osrt</groupId>
-          <artifactId>maplecloudy-osrt-maven-plugin</artifactId>
+          <groupId>com.maplecloudy.osrc</groupId>
+          <artifactId>maplecloudy-osrc-maven-plugin</artifactId>
           <version>1.0.0-RELEASE</version>
           <executions>
               <execution>
                   <goals>
                      <goal>repackage</goal>
-                     <goal>install-osrt-app</goal>
+                     <goal>install-osrc-app</goal>
                      </goals>
               </execution>
           </executions>
   </plugin>
   ```
-  关于osrt plugin的详细使用,请参阅[maplecloudy-osrt-maven-plugin](https://github.com/maplecloudy/maplecloudy-osrt-tools/tree/master/maplecloudy-osrt-maven-plugin#readme)
+  关于osrc plugin的详细使用,请参阅[maplecloudy-osrc-maven-plugin](https://github.com/maplecloudy/maplecloudy-osrc-tools/tree/master/maplecloudy-osrc-maven-plugin#readme)
 
   ## 程序入口
   这里程序入口的意思,即为程序中指定了main方法的class入口.
@@ -48,8 +48,8 @@ deploy上来的app默认是私有的,也即仅作者自己可见,他人搜索应
 
   如果使用`@Service`和`@Task`注解,需要在您的项目中手动进行创建,全类名
   ```
-  service: @com.maplecloudy.osrt.app.annotation.Service 
-  task: @com.maplecloudy.osrt.app.annotation.Task
+  service: @com.maplecloudy.osrc.app.annotation.Service 
+  task: @com.maplecloudy.osrc.app.annotation.Task
   ```
   目前,一个app中,最多只能有一个service的类型的入口,但可以有多个task类型的入口.
   ## 关联的wiki

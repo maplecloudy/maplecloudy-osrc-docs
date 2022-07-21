@@ -1,6 +1,6 @@
 # Osrc Docs
 
-Repository for [Osrc(Open Source Runtime Community)](https://github.com/maplecloudy/maplecloudy-osrt-docs/)'s docs.
+Repository for [Osrc(Open Source Runtime Community)](https://github.com/maplecloudy/maplecloudy-osrc-docs/)'s docs.
 
 ## Intro
 
@@ -17,8 +17,8 @@ $ npm i hexo-cli -g
 ## Install
 
 ```bash
-$ git clone https://github.com/maplecloudy/maplecloudy-osrt-docs.git
-$ cd maplecloudy-osrt-docs
+$ git clone https://github.com/maplecloudy/maplecloudy-osrc-docs.git
+$ cd maplecloudy-osrc-docs
 $ npm i
 ```
 
@@ -40,5 +40,5 @@ All kinds of contributions (enhancements, new features, documentation & code imp
 ## Maintainer
 
 **Osrc Docs** © [Osrc](https://docs.osrc.com), Released under the [GPL-3.0](./LICENSE) License.<br>
-Authored and maintained by Osrc with help from contributors ([list](https://github.com/maplecloudy/maplecloudy-osrt-docs/contributors)).
+Authored and maintained by Osrc with help from contributors ([list](https://github.com/maplecloudy/maplecloudy-osrc-docs/contributors)).
 
