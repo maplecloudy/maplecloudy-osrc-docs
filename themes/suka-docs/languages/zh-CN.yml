@@ -2,7 +2,7 @@ github: 在 GitHub 上编辑
 toc: 目录
 top: 回到顶部
 nav:
-  start: 简介
-  deploy-osrc-app: OSRC应用
+  start: OSRC 简介
+  deploy-osrc-app: OSRC APP
   runtime: 运行时
   pages: OSRC Pages
