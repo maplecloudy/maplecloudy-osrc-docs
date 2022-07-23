@@ -25,7 +25,7 @@ OSRC主张从**源码**直接组装成**制品级别的应用**，OSRC的应用�
  <plugin>
   <groupId>com.maplecloudy.osrc</groupId>
   <artifactId>maplecloudy-osrc-maven-plugin</artifactId>
-  <version>2.0.0</version>
+  <version>1.0.2</version>
   <executions>
       <execution>
           <goals>
