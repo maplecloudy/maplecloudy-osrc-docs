@@ -1,0 +1,14 @@
+{
+  "item.label.Documentation": {
+    "message": "文档中心",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Community": {
+    "message": "开源运行时社区",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.OS": {
+    "message": "开源运行时控制台",
+    "description": "Navbar item with label OS"
+  }
+}

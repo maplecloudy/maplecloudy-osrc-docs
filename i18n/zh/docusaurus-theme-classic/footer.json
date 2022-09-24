@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "开源运行时",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Documentation": {
+    "message": "文档",
+    "description": "The label of footer link with label=Documentation linking to /"
+  },
+  "link.item.label.Release Notes": {
+    "message": "Release Notes",
+    "description": "The label of footer link with label=Release Notes linking to updates/release-notes"
+  },
+  "link.item.label.OSRC": {
+    "message": "开源运行时社区",
+    "description": "The label of footer link with label=OSRC linking to https://www.osrc.com"
+  },
+  "link.item.label.OS": {
+    "message": "开源运行时控制台",
+    "description": "The label of footer link with label=OS linking to https://os.osrc.com"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/maplecloudy"
+  },
+  "copyright": {
+    "message": "Copyright © 2022 OSRC, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mySidebar.category.Tutorials": {
+    "message": "入门教程",
+    "description": "The label for category Tutorials in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Quick Start": {
+    "message": "快速开始",
+    "description": "The label for category Quick Start in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Use Cases": {
+    "message": "部署案例",
+    "description": "The label for category Use Cases in sidebar mySidebar"
+  }
+}
