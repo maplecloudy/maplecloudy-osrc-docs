@@ -126,12 +126,12 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['ruby', 'groovy', 'java'],
       },
-      algolia: {
-        apiKey: '0664a9795ced4a4b187cd8b010ec9f5d',
-        indexName: 'appcircle',
-        appId: 'MLYVQZS3BY',
-        contextualSearch: false,
-      },
+      // algolia: {
+      //   apiKey: '0664a9795ced4a4b187cd8b010ec9f5d',
+      //   indexName: 'appcircle',
+      //   appId: 'MLYVQZS3BY',
+      //   contextualSearch: false,
+      // },
     }),
     plugins: [
       [
@@ -144,6 +144,21 @@ const config = {
       'docusaurus-plugin-sass'
     ],
 
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["zh"],
+        // ```
+      },
+    ],
+  ],
 };
 
 module.exports = config;
