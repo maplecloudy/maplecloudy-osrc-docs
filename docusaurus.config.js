@@ -13,7 +13,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'maplecloudy', // Usually your GitHub org/user name.
   projectName: 'maplecloudy-osrc-docs', // Usually your repo name.
 
@@ -48,7 +48,7 @@ const config = {
         title: 'OSRC',
         logo: {
           alt: 'OSRC Docs',
-          src: 'img/logo.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -75,7 +75,7 @@ const config = {
       footer: {
         style: 'dark',
         logo: {
-          src: 'img/logo.png',
+          src: 'img/logo.svg',
           alt: 'OSRC Logo',
           href: 'https://www.osrc.com',
           width: 40,
@@ -91,9 +91,8 @@ const config = {
                 to: '/',
               },
               {
-                label: 'Release Notes',
-                type: 'doc',
-                to: 'updates/release-notes',
+                label: '版本记录',
+                href: 'https://www.osrc.com/maplecloudy/wikis/wiki_824677758257651712'
               },
             ],
           },

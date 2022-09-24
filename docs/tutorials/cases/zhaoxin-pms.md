@@ -3,7 +3,7 @@ title: '肇新智慧物业(Zhaoxin-pms) 项目部署'
 metaTitle: '这里将引导您部署Zhaoxin-pms，让我们开始吧!'
 metaDescription: '这里将引导您部署Zhaoxin-pms，让我们开始吧!'
 sidebar_position: 6
-sidebar_label: '肇新智慧物业(Zhaoxin-pms) 项目部署'
+sidebar_label: '肇新智慧物业 项目部署'
 ---
 # 1.背景
 
