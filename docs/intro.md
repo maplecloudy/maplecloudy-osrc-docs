@@ -82,8 +82,8 @@ OSRC Pages有如下特点：
 
 - 用户可以发布多个Pages，每个Pages都具备独立且唯一的域，可以通过域直接访问，可以自定义域名。
 - Pages归属于项目(`Project`)下，作为我们开源产品的展示窗口。
-- OSRC Pages可以通过代理设置与OSRC应用(`App`)集成，即前端链接后端，实现动态应用，详见 [OSRC 实战案例,前后端集成](/osrc-pages.html)
+- OSRC Pages可以通过代理设置与OSRC应用(`App`)集成，即前端链接后端，实现动态应用，详见 [OSRC 实战案例,前后端集成](/tutorials/quick-start/osrc-pages)
 
 ----
 
-感谢您阅读OSRC的简介以及相关概念，让我们开始探索使用吧！[Let's Deploy OSRC！](/osrc-app.html)
+感谢您阅读OSRC的简介以及相关概念，让我们开始探索使用吧！[Let's Deploy OSRC！](/tutorials/quick-start/osrc-app)

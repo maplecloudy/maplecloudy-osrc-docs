@@ -30,7 +30,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           remarkPlugins: [rlc],
           // Please change this to your repo.
-          editUrl: 'https://github.com/maplecloudy/maplecloudy-osrc-docs/tree/master/',
+          editUrl: 'https://github.com/maplecloudy/maplecloudy-osrc-docs/tree/main/',
           routeBasePath: '/',
         },
         blog: false,
