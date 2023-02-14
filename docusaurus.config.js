@@ -13,7 +13,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo.svg',
+  favicon: 'img/favicon.png',
   organizationName: 'maplecloudy', // Usually your GitHub org/user name.
   projectName: 'maplecloudy-osrc-docs', // Usually your repo name.
 

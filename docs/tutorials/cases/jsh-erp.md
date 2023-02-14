@@ -109,18 +109,18 @@ OSRC（开源运行时社区[osrc.com](https://osrc.com/)） 是基于云原生�
 jshERP-boot 目录下pom.xml文件引入编译部署插件。
 
         <plugin>
-        <groupId>com.maplecloudy.osrt</groupId>
-        <artifactId>maplecloudy-osrt-maven-plugin</artifactId>
-        <version>1.1.0-SNAPSHOT</version>
-        <executions>
-                <execution>
-                <goals>
-                        <goal>repackage</goal>
-                        <goal>install-osrt-app</goal>
-                </goals>
-                </execution>
-        </executions>
-        </plugin> 
+                <groupId>com.maplecloudy.osrc</groupId>
+                <artifactId>maplecloudy-osrc-maven-plugin</artifactId>
+                <version>1.0.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                            <goal>install-osrc-app</goal>
+                        </goals>
+                    </execution>
+                </executions>
+        </plugin>
 
 运行mvn clean install 部署到 osrc：[华夏ERP ](https://www.maplecloudy.com/osrc/projects/project_807316568498298880)
 

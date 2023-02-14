@@ -23,19 +23,19 @@ sidebar_label: 'Mall 项目部署'
 * pom文件中引入maplecloudy-osrt-maven-plugin进行编译
 
   ```
-  <plugin>
-          <groupId>com.maplecloudy.osrt</groupId>
-          <artifactId>maplecloudy-osrt-maven-plugin</artifactId>
-          <version>1.1.0-SNAPSHOT</version>
-          <executions>
-              <execution>
-                  <goals>
-                     <goal>repackage</goal>
-                        <goal>install-osrt-app</goal>
-                     </goals>
-              </execution>
-          </executions>
-  </plugin>
+        <plugin>
+                <groupId>com.maplecloudy.osrc</groupId>
+                <artifactId>maplecloudy-osrc-maven-plugin</artifactId>
+                <version>1.0.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                            <goal>install-osrc-app</goal>
+                        </goals>
+                    </execution>
+                </executions>
+        </plugin>
   ```
 #### 4.执行mvn clean install
 * target文件目录下会生成以"osrc-app"结尾的jar包  

@@ -126,18 +126,18 @@ mvn clean intall
 zhaoxinwy-admin 目录下pom.xml文件引入编译部署插件。
 
         <plugin>
-        <groupId>com.maplecloudy.osrt</groupId>
-        <artifactId>maplecloudy-osrt-maven-plugin</artifactId>
-        <version>1.1.0-SNAPSHOT</version>
-        <executions>
-                <execution>
-                <goals>
-                        <goal>repackage</goal>
-                        <goal>install-osrt-app</goal>
-                </goals>
-                </execution>
-        </executions>
-        </plugin> 
+                <groupId>com.maplecloudy.osrc</groupId>
+                <artifactId>maplecloudy-osrc-maven-plugin</artifactId>
+                <version>1.0.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                            <goal>install-osrc-app</goal>
+                        </goals>
+                    </execution>
+                </executions>
+        </plugin>
 
 运行mvn clean install 部署到 osrc：[肇新智慧物业](https://www.maplecloudy.com/osrc/projects/project_805475842244272128)
 
